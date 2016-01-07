@@ -28,7 +28,7 @@ const ribi::About ribi::ToolTestTimedServerPusher::MenuDialog::GetAbout()
     "Richel Bilderbeek",
     "TestTimedServerPusher",
     "tool to test WtTimedServerPusher",
-    "the 5th of August 2011",
+    "January 7th of 2016",
     "2011-2015",
     "http://www.richelbilderbeek.nl/ToolTestTimedServerPusher.htm",
     GetVersion(),
@@ -38,13 +38,14 @@ const ribi::About ribi::ToolTestTimedServerPusher::MenuDialog::GetAbout()
 
 std::string ribi::ToolTestTimedServerPusher::MenuDialog::GetVersion()
 {
-  return "1.0";
+  return "2.0";
 }
 
 std::vector<std::string> ribi::ToolTestTimedServerPusher::MenuDialog::GetVersionHistory()
 {
   return {
-    "2011-08-05: Version 1.0: initial version, derived from TestBroadcastServer"
+    "2011-08-05: Version 1.0: initial version, derived from TestBroadcastServer",
+    "2016-01-07: Version 2.0: moved to own GitHub",
   };
 }
 
